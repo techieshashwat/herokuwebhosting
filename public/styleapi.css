@@ -1,0 +1,39 @@
+body{
+    background: lightblue;
+    width: 100%;
+    height: 100%;
+}
+section .center{
+    background: grey;
+    text-align: center;
+    width: 70%;
+    height: 80%;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+section .name input{
+    background: palevioletred;
+}
+section .name{
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 30px;
+    
+}
+
+section button{
+    margin-top: 40px;
+font:sans-serif;
+    background: darkmagenta;
+    padding: 3px;
+    font-size: 30px;
+    color: cyan;
+}
+
+section button:hover{
+    cursor: pointer;
+    background: crimson;
+    transition: all 0.3s;
+}
+
