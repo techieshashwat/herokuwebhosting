@@ -1,7 +1,7 @@
 const path=require("path")
 const express = require("express");
 const ap = express();
-const port = 80;
+const port=process.env.PORT ||80;
 //console.log(__dirname);
 
 
